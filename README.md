@@ -34,7 +34,7 @@ Gensim >= 3.8.0
 Matplotlib >= 3.0.3
 
 ## Usage
-Clone and run the following command:
+Clone inside the folder containing the data files and run the following command:
 
 ```bash
 python run.py
