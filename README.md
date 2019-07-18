@@ -2,7 +2,7 @@
 
 This is a simple RNN model for sentiment analysis. Built using lower-level PyTorch, the project goal was to illustrate my knowledge of the theory fundamentals behind text
 classification and natural language processing. Towards this end, I refrained from using any higher-level wrappers or PyTorch dependencies, building the RNN from scratch.
-I did, however, use PyTorch for backpropagation and weight optimization, to show that I can maneuver within the dependency.
+I did, however, use PyTorch for backpropagation and weight optimization to show that I can maneuver within the dependency.
 
 ## Model Description
 
@@ -19,7 +19,7 @@ The "Amazon Reviews for Sentiment Analysis" dataset is composed of short Amazon 
 
 Word Vectors: https://nlp.stanford.edu/projects/glove/
 
-I used pre-trained GloVe word vectors to word-vectorize text input. These were loaded via the Gensim API. The specific GloVe word vector set used was the one trained using Twitter.
+I used pre-trained GloVe word vectors to word-vectorize text input. These were loaded via the Gensim API. The specific GloVe word vector set used was trained using Twitter corpus data.
 
 ## Results
 
