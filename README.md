@@ -1,6 +1,6 @@
 # Simple Recurrent Neural Network for Sentiment Analysis
 
-This is a simple RNN model for sentiment analysis. Built using lower-level PyTorch, the project goal was to illustrate my knowledge of the theory fundamentals behind text
+This is a simple RNN model for sentiment analysis. Built using lower-level Torch, the project goal was to illustrate my knowledge of the theory fundamentals behind text
 classification and natural language processing. Towards this end, I refrained from using any higher-level wrappers or dependencies, building the RNN from scratch.
 I did, however, use Torch for backpropagation and weight optimization to show that I can maneuver within the dependency.
 
