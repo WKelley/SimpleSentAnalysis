@@ -14,21 +14,23 @@ resulting loss.
 ## Resources Used
 
 Dataset: https://www.kaggle.com/bittlingmayer/amazonreviews
-The "Amazon Reviews for Sentiment Analysis" dataset is composed of short Amazon reviews and a corresponding "good" or "bad" sentiment label. Dataset is composed of 3.6
-million text reviews and labels for training, along with 400 thousand reviews and ratings for testing. (Note: Not all of this data needs to be used if it exceeds 
-computation capabilities - the amount used can be adjusted within the run.py file.)
+
+The "Amazon Reviews for Sentiment Analysis" dataset is composed of short Amazon reviews and a corresponding "good" or "bad" sentiment label. Dataset is composed of 3.6 million text reviews and labels for training, along with 400 thousand reviews and ratings for testing. (Note: Not all of this data needs to be used if it exceeds computation capabilities - the amount used can be adjusted within the run.py file.)
 
 Word Vectors: https://nlp.stanford.edu/projects/glove/
-I used pre-trained GloVe word vectors to word-vectorize text input. These were loaded via the Gensim API. The specific set of word vectors I used was originally trained 
-using Twitter conversations.
+
+I used pre-trained GloVe word vectors to word-vectorize text input. These were loaded via the Gensim API. The specific GloVe word vector set used was the one trained using Twitter.
 
 ## Results
 
 ## Dependency Requirements
 
 NumPy >= 1.16.3
+
 PyTorch >= 1.0.0
+
 Gensim >= 3.8.0
+
 Matplotlib >= 3.0.3
 
 ## Usage
