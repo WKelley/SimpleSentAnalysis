@@ -6,8 +6,8 @@ I did, however, use Torch for backpropagation and weight optimization to show th
 
 ## Model Description
 
-This model is designed to recognize binary sentiment strength ('good' or 'bad') in text input. It takes in word-vectorized sentences and uses an RNN to convert these two
-semantics-preserving "sentence vectors" - that is, one vector containing the semantic information of an entire sentence. These sentence vectors are then fed into a shallow
+This model is designed to recognize binary sentiment strength ('good' or 'bad') in text input. It takes in word-vectorized Amazon product reviews and uses an RNN to convert these two
+semantics-preserving "sentence vectors" - that is, one vector containing the semantic information of an entire string of text. These sentence vectors are then fed into a shallow
 single-layer perceptron, which classifies them into the 'good' or 'bad' sentiment categories. Both the RNN and the single-layer perceptron are then adjusted based on the
 resulting loss.
 
