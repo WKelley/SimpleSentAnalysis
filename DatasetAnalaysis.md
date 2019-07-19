@@ -16,7 +16,7 @@ Within the training dataset, there is a wide variance in the length of reviews. 
 ![Figure 2: Distribution of training reviews in terms of word count.](./EDA_Figures/TrainReviewLength.png)
 __Figure 2: Distribution of training reviews in terms of word count.__
 
-In terms of labels, the training dataset is divided directly in half. 1.8 million of the reviews have a "good" sentiment label and another 1.8 million have a "bad" sentiment label.
+In terms of sentiment, the training dataset is divided directly in half. 1.8 million of the reviews have a "good" sentiment label and another 1.8 million have a "bad" sentiment label.
 
 ## Testing Data Set
 
@@ -25,4 +25,4 @@ Within the testing dataset, there is also a wide variance in the length of revie
 ![Figure 3: Distribution of testing reviews in terms of word count.](./EDA_Figures/TestReviewLength.png)
 __Figure 3: Distribution of testing reviews in terms of word count.__
 
-In terms of labels, the testing dataset is divided directly in half. 200 thousand of the reviews have a "good" sentiment label and another 200 thousand have a "bad" sentiment label.
+In terms of sentiment, the testing dataset is divided directly in half. 200 thousand of the reviews have a "good" sentiment label and another 200 thousand have a "bad" sentiment label.
