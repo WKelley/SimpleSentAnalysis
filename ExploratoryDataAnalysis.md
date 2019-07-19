@@ -6,4 +6,4 @@ In this project, the "Amazon Reviews for Sentiment Analysis" dataset was used. I
 
 Individual data points consist of a sentence-long review of an individual Amazon product and a corresponding binary label describing the sentiment contained within ("good" or "bad"). These reviews are raw text input, while the labels are strings corresponding to "label 1" and "label 2". "Label 1" is given to 1 and 2 star Amazon reviews ("bad" sentiment) while "Label 2" is given to 4 and 5 star reviews ("good sentiment"). 
 
-![Figure 1: Read out of two different data points.](https://imgur.com/a/caeMOTG)
+![Figure 1: Read out of two different data points.](./rawdataex.PNG)
