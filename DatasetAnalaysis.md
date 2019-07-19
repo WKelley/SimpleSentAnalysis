@@ -13,7 +13,7 @@ __Figure 1: Read out of two different data points.__
 
 Within the training dataset, there is a wide variance in the length of reviews. They range anywhere from 72 words to 1,015 words.
 
-![Figure 2: Distribution of training reviews in terms of word count.](./EDA_Figures/TrainReviewLength.PNG)
+![Figure 2: Distribution of training reviews in terms of word count.](./EDA_Figures/TrainReviewLength.png)
 __Figure 2: Distribution of training reviews in terms of word count.__
 
 In terms of labels, the training dataset is divided directly in half. 1.8 million of the reviews have a "good" sentiment label and another 1.8 million have a "bad" sentiment label.
@@ -22,7 +22,7 @@ In terms of labels, the training dataset is divided directly in half. 1.8 millio
 
 Within the testing dataset, there is also a wide variance in the length of reviews. They range anywhere from 99 words to 1,015 words.
 
-![Figure 3: Distribution of testing reviews in terms of word count.](./EDA_Figures/TestReviewLength.PNG)
+![Figure 3: Distribution of testing reviews in terms of word count.](./EDA_Figures/TestReviewLength.png)
 __Figure 3: Distribution of testing reviews in terms of word count.__
 
 In terms of labels, the testing dataset is divided directly in half. 200 thousand of the reviews have a "good" sentiment label and another 200 thousand have a "bad" sentiment label.
