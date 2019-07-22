@@ -27,7 +27,7 @@ __Figure 3: Distribution of testing reviews in terms of word count.__
 
 In terms of sentiment, the testing dataset is divided directly in half. 200 thousand of the reviews have a "good" sentiment label and another 200 thousand have a "bad" sentiment label.
 
-## Pre-processing
+## Pre-Processing
 
 The raw text input in the dataset was cleaned up a bit, with all URLs replaced with a generic "<URL>" tag and numbers removed.
 
