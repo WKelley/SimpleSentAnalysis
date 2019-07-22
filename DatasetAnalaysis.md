@@ -27,6 +27,10 @@ __Figure 3: Distribution of testing reviews in terms of word count.__
 
 In terms of sentiment, the testing dataset is divided directly in half. 200 thousand of the reviews have a "good" sentiment label and another 200 thousand have a "bad" sentiment label.
 
+## Pre-processing
+
+The raw text input in the dataset was cleaned up a bit, with all URLs replaced with a generic "<URL>" tag and numbers removed.
+
 ## Word Vectors
 
 To use raw text data as input for a neural network, words must be turned into semantics-preserving word vectors. I used a pre-trained model for this, the GloVe twitter word vector set. If a word was discovered in the raw text input that did not have a corresponding word vector, it was removed.
