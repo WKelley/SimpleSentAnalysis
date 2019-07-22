@@ -29,7 +29,7 @@ In terms of sentiment, the testing dataset is divided directly in half. 200 thou
 
 ## Pre-Processing
 
-The raw text input in the dataset was cleaned up a bit, with all URLs replaced with a generic "<URL>" tag and numbers removed.
+The raw text input in the dataset was cleaned up a bit, with all URLs replaced with a generic URL tag and all numbers removed.
 
 ## Word Vectors
 
