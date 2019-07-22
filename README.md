@@ -23,6 +23,14 @@ I used pre-trained GloVe word vectors to word-vectorize text input. These were l
 
 ## Results
 
+![Figure 1: Loss over time.](./Result_Figures/Loss.png)
+
+Loss decreases over time as the model better fits training data.
+
+![Figure 2: Testing accuracy over time.](./Result_Figures/Test_Accuracy.png)
+
+Testing Accuracy initially increases to about 0.62, somewhat above chance for an evenly-divided dataset split between two classes. After enough epochs, however, the model begins to overfit to the training data, and there is a resulting loss in test accuracy. In our case, this occurs after 830 epochs.
+
 ## Dependency Requirements
 
 NumPy >= 1.16.3
